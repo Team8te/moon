@@ -11,22 +11,35 @@ set(_component_type executable)
 # Set type library (STATIC or SHARED or empty).
 set(_library_type)
 
-SET(source_files)
+SET(source_files
+	src/main.cpp
+	src/server.cpp
+	)
 
-SET(header_files)
+SET(header_files
+    include/server.hpp
+    )
 
-SET(private_header_files)
+SET(private_header_files
+   )
 
 SET(private_source_files
-	src/main.cpp)
+   )
 
-SET(resource_files)
+SET(resource_files
+   )
 
-SET(dependencies)
+SET(dependencies
+   )
 
-SET(link_target)
+SET(link_target
+   )
 
-SET(definitions)
+SET(_target_libraries_whole_archive
+   )
+
+SET(definitions
+   )
 
 ## Config project settings, adding project source files and other.
 include("${CMAKE_SOURCE_DIR}/cmake/ConfigProject.cmake")
