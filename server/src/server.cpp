@@ -1,1 +1,11 @@
-#include <include/server.hpp>
+#include "server.hpp"
+
+Server::Server()
+{
+
+}
+
+Server::~Server()
+{
+
+}

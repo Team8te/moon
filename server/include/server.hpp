@@ -11,11 +11,3 @@ public:
 private:
 
 };
-
-Server::Server()
-{
-}
-
-Server::~Server()
-{
-}

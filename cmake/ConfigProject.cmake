@@ -1,6 +1,8 @@
 # This file for install projects configuration, added project source files
 # and config project settings
 
+include("${CMAKE_SOURCE_DIR}/cmake/TargetLinkLibrariesEx.cmake")
+
 add_definitions(${definitions})
    
 # Disable compilation for private sources.
@@ -48,7 +50,7 @@ target_link_libraries_ex(TARGET ${_project_name}_${_component_name}
                         OPTIMIZE YES)
 
 # Link a target to given libraries.
-#target_link_libraries_ex(TARGET ${_project_name}_${_component_name}
-#                        LIBRARIES ${_target_libraries_whole_archive}
-#                        OPTIMIZE NO)
+target_link_libraries_ex(TARGET ${_project_name}_${_component_name}
+                        LIBRARIES ${_target_libraries_whole_archive}
+                        OPTIMIZE NO)
 
