@@ -30,6 +30,7 @@ SET(resource_files
    )
 
 SET(dependencies
+    Boost
    )
 
 SET(link_target
