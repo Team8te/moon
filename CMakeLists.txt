@@ -8,7 +8,7 @@ project(${_project_name})
 set(_components 
     server
    )
-
+   
 # Add output directory for archives project.
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib
     CACHE PATH "Directory where all the .lib files are dumped.")

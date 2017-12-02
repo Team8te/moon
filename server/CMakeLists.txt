@@ -11,35 +11,32 @@ set(_component_type executable)
 # Set type library (STATIC or SHARED or empty).
 set(_library_type)
 
-SET(source_files
+SET(_source_files
 	src/main.cpp
 	src/server.cpp
 	)
 
-SET(header_files
+SET(_header_files
     include/server.hpp
     )
 
-SET(private_header_files
+SET(_private_header_files
    )
 
-SET(private_source_files
+SET(_private_source_files
    )
 
-SET(resource_files
+SET(_resource_files
    )
 
-SET(dependencies
+SET(_dependencies
     Boost
    )
 
-SET(link_target
+SET(_link_libraries_whole_archive
    )
 
-SET(_target_libraries_whole_archive
-   )
-
-SET(definitions
+SET(_definitions
    )
 
 ## Config project settings, adding project source files and other.
